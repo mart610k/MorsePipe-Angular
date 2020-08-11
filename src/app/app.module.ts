@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MorsePipe } from './morse.pipe';
+import { Md5hasherPipe } from './md5hasher.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MorsePipe
+    MorsePipe,
+    Md5hasherPipe
   ],
   imports: [
     BrowserModule

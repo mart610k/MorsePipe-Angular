@@ -17,7 +17,7 @@ export class MorsePipe implements PipeTransform {
 
   private convertToMorse(char: string): string {
     switch (char) {
-      case 'a':
+      case "a":
         return ".-";
       case "b":
         return "-...";
@@ -29,7 +29,7 @@ export class MorsePipe implements PipeTransform {
         return ".";
       case "f":
         return "..-.";
-      case 'g':
+      case "g":
         return "--.";
       case "h":
         return "....";
@@ -41,7 +41,86 @@ export class MorsePipe implements PipeTransform {
         return "-.-";
       case "l":
         return ".-..";
-        //Kept this brief as all characters are a little too much work.
+      case "m":
+        return "--";
+      case "n":
+        return "-.";
+      case "o":
+        return "---";
+      case "p":
+        return ".--.";
+      case "q":
+        return "--.-";
+      case "r":
+        return ".-.";
+      case "s":
+        return "...";
+      case "t":
+        return "-";
+      case "u":
+        return "..-";
+      case "v":
+        return "...-";
+      case "w":
+        return ".--";
+      case "x":
+        return "-..-";
+      case "y":
+        return "-.--";
+      case "z":
+        return "--..";
+      case "æ":
+        return ".-.-";
+      case "ø":
+        return "---.";
+      case "å":
+        return ".--.-";
+      case "1":
+        return ".----";
+      case "2":
+        return "..---";
+      case "3":
+        return "...--";
+      case "4":
+        return "....-";
+      case "5":
+        return ".....";
+      case "6":
+        return "-....";
+      case "7":
+        return "--...";
+      case "8":
+        return "---..";
+      case "9":
+        return "----.";
+      case "0":
+        return "-----";
+      case ".":
+        return ".-.-.-";
+      case ",":
+        return "--..--";
+      case ":":
+        return "---...";
+      case "?":
+        return "..--..";
+      case "'":
+        return ".----.";
+      case "-":
+        return "-....-";
+      case "/":
+        return "-..-.";
+      case "(":
+        return "-.--.";
+      case ")":
+        return "-.--.-";
+      case "\"":
+        return ".-..-.";
+      case "\r\n":
+        return "--.-";
+      case "×":
+        return "-..-";
+      case "@":
+        return ".--.-.";
       default:
         return char;
     }
