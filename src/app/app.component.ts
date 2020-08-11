@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MorsePipe } from "./morse.pipe";
 
 @Component({
   selector: 'app-root',
